@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    --bgPrimary: #151819;
+    --bgSecond: #1B1E22;
+    --accent: #ED145B;
+    --texColor: #91A3AD;
+}
+
+body {
+    background-color: var(--bgPrimary);
+    height: 100vh;
+}
+
+.main-header {
+    background-color: var(--bgPrimary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 4px 4px var(--accent);
+}
+
+.main-header>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main {
+    background-color: var(--bgSecond);
+    margin-top: 15px;
+}
+
+.icon-style {
+    color: var(--accent);
+    font-size: x-large;
+}
+
+.line-2 {
+    border-left: 4px solid var(--accent);
+    height: 50px;
+}
+
+h2 {
+    color: var(--texColor);
+}
+
+h1 {
+    color: var(--texColor); 
+}
