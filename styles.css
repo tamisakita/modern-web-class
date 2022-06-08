@@ -35,9 +35,20 @@ main {
     margin-top: 15px;
 }
 
+.post {
+    display: flex;
+    flex-direction: column;
+    margin: 10px
+}
+
+.main-text {
+    border-left: 2px solid var(--accent);
+    padding-left: 5px;
+}
+
 .icon-style {
     color: var(--accent);
-    font-size: x-large;
+    font-size: 100px;
 }
 
 .line-2 {
