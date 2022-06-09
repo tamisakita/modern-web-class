@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: var(--texColor);
 }
 
 :root {
@@ -30,30 +33,54 @@ body {
     gap: 5px;
 }
 
-main {
-    background-color: var(--bgSecond);
-    margin-top: 15px;
+.hearder-img-logo {
+    margin: 0px 0px 5px 15px;
 }
 
-.post {
+.hearder-img-quit {
+    margin-right: 15px;
+}
+
+section {
     display: flex;
     flex-direction: column;
-    margin: 10px
+    margin: 15px;
+    background-color: var(--bgSecond);
+    padding: 10px;
 }
 
-.main-text {
+section>article>div>p {
     border-left: 2px solid var(--accent);
     padding-left: 5px;
 }
 
-.icon-style {
-    color: var(--accent);
-    font-size: 100px;
+section>article>header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.line-2 {
-    border-left: 4px solid var(--accent);
-    height: 50px;
+section>article>main {
+    margin-top: 15px;
+}
+
+section>article>main>p {
+    margin: 10px;
+    padding-left: 30px;
+    border-left: 2px solid var(--accent);
+}
+
+section>article>main>img{
+    width: calc(100% + 20px);
+    margin-left: -10px;
+}
+
+section>article>div>button {
+    background-color: var(--bgPrimary);
+    padding: 5px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
 h2 {
