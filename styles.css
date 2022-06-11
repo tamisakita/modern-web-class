@@ -83,6 +83,28 @@ section>article>div>button {
     border: none;
 }
 
+section>article>h3 {
+    margin: 15px 0px 5px 0px;
+}
+
+.post-container {
+    background-color: var(--bgPrimary);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post>p {
+    margin: 10px;
+    padding-left: 30px;
+    border-left: 2px solid var(--accent);
+}
+
 h2 {
     color: var(--texColor);
 }
